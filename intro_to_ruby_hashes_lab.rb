@@ -31,7 +31,7 @@ end
 def monopoly_with_fourth_tier
   mwtt = monopoly_with_third_tier
   mwtt[:railroads][:names][:reading_railroad] = {:morgage_value => 100}
-  monopoly_with_third_tier[:railroads][:names][:pennsylvania_railroad] = {:morgage_value => 200}
+  mwtt[:railroads][:names][:pennsylvania_railroad] = {:morgage_value => 200}
   monopoly_with_third_tier[:railroads][:names][:b_and_o_railroad] = {:morgage_value => 400}
   monopoly_with_third_tier[:railroads][:names][:shortline_railroad] = {:morgage_value => 800}
 end
