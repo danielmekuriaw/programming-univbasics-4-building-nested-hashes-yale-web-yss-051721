@@ -30,10 +30,10 @@ end
 
 def monopoly_with_fourth_tier
   mwtt = monopoly_with_third_tier
-  mwtt[:railroads][:names][:reading_railroad] = {:morgage_value => 100}
-  mwtt[:railroads][:names][:pennsylvania_railroad] = {:morgage_value => 200}
-  mwtt[:railroads][:names][:b_and_o_railroad] = {:morgage_value => 400}
-  mwtt[:railroads][:names][:shortline_railroad] = {:morgage_value => 800}
+  mwtt[:railroads][:names][:reading_railroad] = {:mortgage_value => 100}
+  mwtt[:railroads][:names][:pennsylvania_railroad] = {:mortgage_value => 200}
+  mwtt[:railroads][:names][:b_and_o_railroad] = {:mortgage_value => 400}
+  mwtt[:railroads][:names][:shortline_railroad] = {:mortgage_value => 800}
   
   mwtt
 end
