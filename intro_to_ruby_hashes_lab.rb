@@ -26,7 +26,6 @@ def monopoly_with_third_tier
   mwst[:railroads][:names] = {:reading_railroad => {}, :pennsylvania_railroad => {}, :b_and_o_railroad => {}, :shortline_railroad => {}}
   
   mwst
-  
 end
 
 def monopoly_with_fourth_tier
