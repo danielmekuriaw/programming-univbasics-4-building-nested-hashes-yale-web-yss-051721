@@ -12,7 +12,7 @@ def monopoly_with_second_tier
     :names => {}
   }
   
-  puts base_hash
+  puts temp
 
   base_hash
 end
