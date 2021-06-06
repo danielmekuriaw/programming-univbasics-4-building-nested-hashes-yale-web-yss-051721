@@ -30,3 +30,5 @@ def monopoly_with_fourth_tier
   monopoly_with_third_tier[:railroads][:names][:b_and_o_railroad] = {:morgage_value => 400}
   monopoly_with_third_tier[:railroads][:names][:shortline_railroad] = {:morgage_value => 800}
 end
+
+monopoly_with_second_tier
