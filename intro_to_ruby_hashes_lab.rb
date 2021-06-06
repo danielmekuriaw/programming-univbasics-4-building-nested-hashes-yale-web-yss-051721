@@ -37,5 +37,3 @@ def monopoly_with_fourth_tier
   
   mwtt
 end
-
-monopoly_with_second_tier
