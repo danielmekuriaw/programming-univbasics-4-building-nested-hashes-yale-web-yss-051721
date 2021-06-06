@@ -14,7 +14,7 @@ def monopoly_with_second_tier
   
   puts temp
 
-  base_hash
+  temp
 end
 
 def monopoly_with_third_tier
